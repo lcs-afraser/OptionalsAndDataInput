@@ -60,6 +60,8 @@ struct ExampleInputView: View {
 
 let view = ExampleInputView()
 PlaygroundPage.current.setLiveView(view)
+//Whenever you provide an imput, the resulting data tyhpe is always a string. This is because you have the option to input both words and numbers.
+//When an empty string is provided as the input, the data type is still a string as it is relaying nothing, since nothing has been typed.
 
 /*:
  
